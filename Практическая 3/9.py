@@ -1,0 +1,12 @@
+# -- coding: utf-8 --def main():
+def main():
+    n = int(input('Введите число n: '))
+    m = int(input('Введите число m: '))
+    k = int(input('Введите число k: '))
+
+    result = 'Да' if k < n * m and (k % n == 0 or k % m == 0) else 'Нет'
+
+    return result
+
+
+print(main())
