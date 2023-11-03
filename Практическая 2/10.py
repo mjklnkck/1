@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 # -- coding: utf-8 --
 import math
 x = 3.981*(10**-2)
